@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        padding: 8px 12px;
+        font-size: 20px;
+    }
+    
+    .navbar-menu { 
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+    }
+    
+    .navbar-menu li {
+        padding: 8px 12px
+    }
+
+    .navbar-rogo {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .login {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 10px;
+    }
+
+    .video {
+        margin: 20px 100px 20px; 
+    }
