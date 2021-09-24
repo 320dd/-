@@ -12,7 +12,7 @@ body {
         align-items: center;
         background-color: black;
         padding: 8px 12px;
-        font-size: 20px;
+        font-size: 15px;
     }
     
     .navbar-menu { 
@@ -30,13 +30,26 @@ body {
         margin-bottom: 10px;
     }
 
-    .login {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        font-size: 10px;
+    .login, h4 {
+        margin-bottom: 3px;
+        margin-top: 0px;
     }
 
-    .video {
-        margin: 20px 100px 20px; 
+    .인물소개 {
+        background-color: gray;
+    }
+
+    .인물소개, h1 {
+        color: white;
+        margin-top: 2px;
+        align-items: center;
+    }
+
+    .프로필 {
+        display: flex;
+        background-color: gray;
+    }
+
+    #1 {
+        margin-left: 100px;
     }
